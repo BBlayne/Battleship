@@ -1,4 +1,3 @@
-#include "Includes/catch.hpp"
 #include "TestBattleship.h"
 
 TEST_CASE("Battleship Returns non-negative HP", "[HP]") {

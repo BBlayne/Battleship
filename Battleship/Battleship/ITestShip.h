@@ -1,5 +1,6 @@
 #pragma once
+#include "BattleshipGameTests.h"
+
 class TestShip {
-public:
-	virtual void Run() = 0;
+
 };

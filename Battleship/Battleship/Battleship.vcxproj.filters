@@ -22,6 +22,12 @@
     <Filter Include="Ships">
       <UniqueIdentifier>{9d5a5149-ebe9-4884-81d4-920bb7bb54e9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Combat">
+      <UniqueIdentifier>{cb1b3b7a-e055-4134-a7f5-96661133b4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{89e87dff-361a-4c85-8f4f-7ffa354d90ac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestBattleship.h">
@@ -39,6 +45,24 @@
     <ClInclude Include="Includes\catch.hpp">
       <Filter>Includes</Filter>
     </ClInclude>
+    <ClInclude Include="GLOBAL_SHIP_DEFINES.h">
+      <Filter>Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="HitData.h">
+      <Filter>Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldCoord.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleshipGameTests.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldTile.h">
+      <Filter>World</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BattleshipGame.cpp">
@@ -52,6 +76,18 @@
     </ClCompile>
     <ClCompile Include="Battleship.cpp">
       <Filter>Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCoord.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestHitData.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestTile.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>World</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

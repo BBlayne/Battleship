@@ -144,13 +144,23 @@
     <ClCompile Include="Battleship.cpp" />
     <ClCompile Include="BattleshipTests.cpp" />
     <ClCompile Include="TestBattleship.cpp" />
+    <ClCompile Include="TestCoord.cpp" />
+    <ClCompile Include="TestHitData.cpp" />
+    <ClCompile Include="TestTile.cpp" />
+    <ClCompile Include="World.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Battleship.h" />
+    <ClInclude Include="BattleshipGameTests.h" />
+    <ClInclude Include="GLOBAL_SHIP_DEFINES.h" />
+    <ClInclude Include="HitData.h" />
     <ClInclude Include="Includes\catch.hpp" />
     <ClInclude Include="IShip.h" />
     <ClInclude Include="ITestShip.h" />
     <ClInclude Include="TestBattleship.h" />
+    <ClInclude Include="World.h" />
+    <ClInclude Include="WorldCoord.h" />
+    <ClInclude Include="WorldTile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
